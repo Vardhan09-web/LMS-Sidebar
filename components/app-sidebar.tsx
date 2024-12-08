@@ -8,10 +8,10 @@ import {
   Command,
   Frame,
   GalleryVerticalEnd,
+  GraduationCap,
   Map,
   PieChart,
   Settings2,
-  SquareTerminal,
 } from "lucide-react"
 
 
@@ -56,8 +56,8 @@ const data = {
     {
       title: "Courses",
       url: "#",
-      icon: SquareTerminal,
-      isActive: true,
+      icon: GraduationCap,
+      isActive: false,
       items: [
         {
           title: "Programming",
