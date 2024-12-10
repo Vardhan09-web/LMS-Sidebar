@@ -53,14 +53,14 @@ export default function Dashboard() {
           <div className="flex-1">
             <nav className="grid items-start px-2 text-sm font-medium lg:px-4">
               <Link
-                href="#"
+                href="admin/dashboard"
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
               >
                 <Home className="h-4 w-4" />
                 Dashboard
               </Link>
               <Link
-                href="#"
+                href="admin/orders"
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
               >
                 <ShoppingCart className="h-4 w-4" />
@@ -70,21 +70,21 @@ export default function Dashboard() {
                 </Badge>
               </Link>
               <Link
-                href="#"
+                href="admin/products"
                 className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary"
               >
                 <Package className="h-4 w-4" />
                 Products{" "}
               </Link>
               <Link
-                href="#"
+                href="admin/customers"
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
               >
                 <Users className="h-4 w-4" />
                 Customers
               </Link>
               <Link
-                href="#"
+                href="admin/analytics"
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
               >
                 <LineChart className="h-4 w-4" />
@@ -133,14 +133,14 @@ export default function Dashboard() {
                   <span className="sr-only">Acme Inc</span>
                 </Link>
                 <Link
-                  href="#"
+                  href="admin/dashboard"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <Home className="h-5 w-5" />
                   Dashboard
                 </Link>
                 <Link
-                  href="#"
+                  href="admin/orders"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl bg-muted px-3 py-2 text-foreground hover:text-foreground"
                 >
                   <ShoppingCart className="h-5 w-5" />
@@ -150,21 +150,21 @@ export default function Dashboard() {
                   </Badge>
                 </Link>
                 <Link
-                  href="#"
+                  href="admin/products"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <Package className="h-5 w-5" />
                   Products
                 </Link>
                 <Link
-                  href="#"
+                  href="admin/customers"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <Users className="h-5 w-5" />
                   Customers
                 </Link>
                 <Link
-                  href="#"
+                  href="admin/analytics"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <LineChart className="h-5 w-5" />
