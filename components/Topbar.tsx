@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import {
   Bell,
@@ -135,7 +137,13 @@ export default function Topbar() {
                             <DropdownMenuItem>Settings</DropdownMenuItem>
                             <DropdownMenuItem>Support</DropdownMenuItem>
                             <DropdownMenuSeparator />
-                            <DropdownMenuItem>Logout</DropdownMenuItem>
+                            <Link
+                                    href="/"
+                                    className="flex items-center gap-2 text-lg font-semibold"
+                                >
+                                    <DropdownMenuItem>Logout</DropdownMenuItem>
+                                </Link>
+                            {/* <DropdownMenuItem>Logout</DropdownMenuItem> */}
                         </DropdownMenuContent>
                     </DropdownMenu>
                 </header>

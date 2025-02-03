@@ -61,24 +61,24 @@ const data = {
       items: [
         {
           title: "Programming",
-          url: "#",
+          url: "/programming",
          
         },
         {
           title: "Web Development",
-          url: "#",
+          url: "/webDevelopment",
         },
         {
           title: "Cyber Security",
-          url: "#",
+          url: "/cyberSecurity",
         },
         {
           title: "Machine Learning",
-          url: "#",
+          url: "machineLearning",
         },
         {
           title: "Cloud Computing",
-          url: "#",
+          url: "cloudComputing",
         },
       ],
     },
